@@ -17,13 +17,47 @@ namespace program
             Console.Write("Du u want play vs AI (1) or vs second player(2)? ");
             int ai_or_2 = Convert.ToInt32(Console.ReadLine());
 
+            
 
             switch (ai_or_2) //switch choice 
             {
                 case 1: //AI game
-                Console.WriteLine("Not yet");
-                Console.ReadKey();
-                break;
+                Console.Write("Input a number of rounds: ");
+                int max_rounds_ai = Convert.ToInt32(Console.ReadLine());
+                for (int i = 0; i < max_rounds_ai; i++)
+                {
+                    Console.WriteLine("-----------------------------------");
+                    Console.ForegroundColor=ConsoleColor.DarkYellow;
+                    Console.WriteLine("it's round "+(i+1));
+                    Console.WriteLine();
+                    Console.ResetColor();
+                    roll1 = Player_vs_ai();
+                    Empty_line();
+                    roll2 = Ai_vs_player();
+                    Empty_line();
+                    UpdateScores();
+                    Result_after_round_ai();
+                }
+
+
+                    if (totalScore1>totalScore2)
+                    {
+                        Console.ForegroundColor=ConsoleColor.DarkBlue;
+                        Console.WriteLine("you won the game, gratz");
+                    }
+                    else if (totalScore1<totalScore2)
+                    {
+                        Console.ForegroundColor=ConsoleColor.DarkGreen;
+                        Console.WriteLine("ai won the game :(");
+                    }
+                    else
+                    {
+                        Console.WriteLine("its draw");
+
+                    }
+                    Console.ReadKey();
+                    break;
+                  
 
 
 
@@ -145,6 +179,39 @@ namespace program
             string name2 = (Console.ReadLine());
             Console.ResetColor();
             return (name1,name2);
+        }
+
+        static int Player_vs_ai()
+        {
+            Console.ForegroundColor=ConsoleColor.DarkBlue;
+            Console.WriteLine("press enter key to roll, you are rolling:");
+            Console.ReadKey();
+            int roll1 = NumberGen();
+            Console.Write("you rolled: "+ roll1);
+            Console.ResetColor();
+            return roll1;
+        }
+
+        static int Ai_vs_player()
+        {
+            Console.ForegroundColor=ConsoleColor.DarkGreen;
+            Console.WriteLine("press enter key to roll, ai is rolling:");
+            Console.ReadKey();
+            int roll2 = NumberGen();
+            
+            Console.Write("ai rolled: "+ roll2);
+            Console.ResetColor();
+            return roll2;
+        }
+
+        static void Result_after_round_ai()
+        {           
+            Console.WriteLine("The score is now: ");
+            Console.ForegroundColor=ConsoleColor.DarkBlue;
+            Console.WriteLine("your score: "+totalScore1);
+            Console.ForegroundColor=ConsoleColor.DarkGreen;
+            Console.WriteLine("ai score: "+totalScore2);
+            Console.ResetColor();
         }
 
     }

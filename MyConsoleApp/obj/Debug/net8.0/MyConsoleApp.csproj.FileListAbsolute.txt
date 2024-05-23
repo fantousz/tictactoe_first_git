@@ -12,3 +12,4 @@ C:\Users\mamam\Desktop\tittactoe_net\MyConsoleApp\obj\Debug\net8.0\refint\MyCons
 C:\Users\mamam\Desktop\tittactoe_net\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.pdb
 C:\Users\mamam\Desktop\tittactoe_net\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.genruntimeconfig.cache
 C:\Users\mamam\Desktop\tittactoe_net\MyConsoleApp\obj\Debug\net8.0\ref\MyConsoleApp.dll
+C:\Users\mamam\Desktop\tittactoe_net\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.sourcelink.json
