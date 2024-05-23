@@ -1,0 +1,14 @@
+C:\Users\mamam\Desktop\tittactoe_net\MyConsoleApp\bin\Debug\net8.0\MyConsoleApp.exe
+C:\Users\mamam\Desktop\tittactoe_net\MyConsoleApp\bin\Debug\net8.0\MyConsoleApp.deps.json
+C:\Users\mamam\Desktop\tittactoe_net\MyConsoleApp\bin\Debug\net8.0\MyConsoleApp.runtimeconfig.json
+C:\Users\mamam\Desktop\tittactoe_net\MyConsoleApp\bin\Debug\net8.0\MyConsoleApp.dll
+C:\Users\mamam\Desktop\tittactoe_net\MyConsoleApp\bin\Debug\net8.0\MyConsoleApp.pdb
+C:\Users\mamam\Desktop\tittactoe_net\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mamam\Desktop\tittactoe_net\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.AssemblyInfoInputs.cache
+C:\Users\mamam\Desktop\tittactoe_net\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.AssemblyInfo.cs
+C:\Users\mamam\Desktop\tittactoe_net\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\mamam\Desktop\tittactoe_net\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.dll
+C:\Users\mamam\Desktop\tittactoe_net\MyConsoleApp\obj\Debug\net8.0\refint\MyConsoleApp.dll
+C:\Users\mamam\Desktop\tittactoe_net\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.pdb
+C:\Users\mamam\Desktop\tittactoe_net\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.genruntimeconfig.cache
+C:\Users\mamam\Desktop\tittactoe_net\MyConsoleApp\obj\Debug\net8.0\ref\MyConsoleApp.dll
